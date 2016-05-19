@@ -32,10 +32,10 @@ var polygons = featureLayer({
   }
 });
 polygons.addTo(map);
-var labels = featureLayer({
+var points = featureLayer({
   url: '//services1.arcgis.com/R293DznM2zjfdFQ4/arcgis/rest/services/client41_all_LocationsPolygons_labels/FeatureServer/0'
 }).addTo(map);
-labels.addTo(map);
+points.addTo(map);
 
 var baseMaps = {
   "Streets": basemapLayer("Streets"),
@@ -44,7 +44,7 @@ var baseMaps = {
 
 var overlayMaps = {
   "TAs": polygons,
-  "Gates": labels
+  "Gates": points
 };
 
 baseMaps["Streets"].addTo(map);
@@ -55,7 +55,7 @@ L.control.scale().addTo(map);
 polygons.bindPopup(function (feature) {
   return esriLeafletUtil.template('<p>{F_Area_ID}<br>{F_label}<br>{Use_Restri}<br>More stuff here!</p>', feature.properties);
 });
-labels.bindPopup(function ({feature}) {
+points.bindPopup(function ({feature}) {
   return L.Util.template('<p>Gate {F_Area_ID}<br>{TA}<br><br>More stuff here!</p>', feature.properties);
 });
 
