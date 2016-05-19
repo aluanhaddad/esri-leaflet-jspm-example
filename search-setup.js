@@ -5,7 +5,7 @@ export default function createSearcher() {
     var searchControl = geosearch({
         providers: [
             featureLayerProvider({
-                url: '//services1.arcgis.com/R293DznM2zjfdFQ4/arcgis/rest/services/FAPHManagedPolygons/FeatureServer/0',
+                url: '//services1.arcgis.com/R293DznM2zjfdFQ4/arcgis/rest/services/client41_all_LocationsPolygons_labels/FeatureServer/0',
                 searchFields: ['F_Area_ID', 'F_label'],
                 label: 'Search',
                 bufferRadius: 250,

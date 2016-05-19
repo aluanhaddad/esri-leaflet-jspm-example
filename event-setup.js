@@ -20,7 +20,7 @@ export default function setupEvents(areas, map) {
             });
         }
     } ());
-
+    
     (function (labels) {
         areas.on('createfeature', function (created) {
             var id = created.feature.id;

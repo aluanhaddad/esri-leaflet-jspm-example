@@ -1,0 +1,271 @@
+{
+    "renderer": {
+        "type": "uniqueValue",
+        "field1": "Status",
+        "uniqueValueInfos": [
+            {
+                "value": " ",
+                "symbol": {
+                    "color": [
+                        252,
+                        225,
+                        56,
+                        128
+                    ],
+                    "outline": {
+                        "color": [
+                            128,
+                            128,
+                            128,
+                            255
+                        ],
+                        "width": 0.75,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                    },
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid"
+                },
+                "label": " ",
+                "description": null
+            },
+            {
+                "value": "_base",
+                "symbol": {
+                    "color": [
+                        255,
+                        247,
+                        153,
+                        128
+                    ],
+                    "outline": {
+                        "color": [
+                            128,
+                            128,
+                            128,
+                            255
+                        ],
+                        "width": 0.75,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                    },
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid"
+                },
+                "label": "_base",
+                "description": null
+            },
+            {
+                "value": "_closed",
+                "symbol": {
+                    "color": [
+                        252,
+                        210,
+                        126,
+                        128
+                    ],
+                    "outline": {
+                        "color": [
+                            128,
+                            128,
+                            128,
+                            255
+                        ],
+                        "width": 0.75,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                    },
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid"
+                },
+                "label": "_closed",
+                "description": null
+            },
+            {
+                "value": "_closedWater",
+                "symbol": {
+                    "color": [
+                        220,
+                        232,
+                        255,
+                        255
+                    ],
+                    "outline": {
+                        "color": [
+                            108,
+                            151,
+                            203,
+                            255
+                        ],
+                        "width": 1.5,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                    },
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid"
+                },
+                "label": "_closedWater",
+                "description": null
+            },
+            {
+                "value": "_full",
+                "symbol": {
+                    "color": [
+                        165,
+                        83,
+                        183,
+                        128
+                    ],
+                    "outline": {
+                        "color": [
+                            128,
+                            128,
+                            128,
+                            255
+                        ],
+                        "width": 0.75,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                    },
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid"
+                },
+                "label": "_full",
+                "description": null
+            },
+            {
+                "value": "_highlit",
+                "symbol": {
+                    "color": [
+                        177,
+                        169,
+                        208,
+                        128
+                    ],
+                    "outline": {
+                        "color": [
+                            128,
+                            128,
+                            128,
+                            255
+                        ],
+                        "width": 0.75,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                    },
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid"
+                },
+                "label": "_highlit",
+                "description": null
+            },
+            {
+                "value": "_hold",
+                "symbol": {
+                    "color": [
+                        110,
+                        207,
+                        252,
+                        128
+                    ],
+                    "outline": {
+                        "color": [
+                            128,
+                            128,
+                            128,
+                            255
+                        ],
+                        "width": 0.75,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                    },
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid"
+                },
+                "label": "_hold",
+                "description": null
+            },
+            {
+                "value": "_open",
+                "symbol": {
+                    "color": [
+                        76,
+                        129,
+                        205,
+                        128
+                    ],
+                    "outline": {
+                        "color": [
+                            128,
+                            128,
+                            128,
+                            255
+                        ],
+                        "width": 0.75,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                    },
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid"
+                },
+                "label": "_open",
+                "description": null
+            },
+            {
+                "value": "_openWater",
+                "symbol": {
+                    "color": [
+                        194,
+                        240,
+                        255,
+                        255
+                    ],
+                    "outline": {
+                        "color": [
+                            101,
+                            179,
+                            200,
+                            255
+                        ],
+                        "width": 1.5,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                    },
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid"
+                },
+                "label": "_openWater",
+                "description": null
+            },
+            {
+                "value": "_selected",
+                "symbol": {
+                    "color": [
+                        252,
+                        62,
+                        90,
+                        128
+                    ],
+                    "outline": {
+                        "color": [
+                            128,
+                            128,
+                            128,
+                            255
+                        ],
+                        "width": 0.75,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                    },
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid"
+                },
+                "label": "_selected",
+                "description": null
+            }
+        ]
+    },
+    "transparency": 0,
+    "labelingInfo": null,
+    "fixedSymbols": true
+}

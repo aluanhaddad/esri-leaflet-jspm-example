@@ -15,9 +15,11 @@ System.config({
   meta: {
     "*.json": {
       "loader": "json"
+    }, "*.ts": {
+      defaultExtension: 'ts',
+      loader: "ts"
     }
   },
-
   map: {
     "Esri/esri-leaflet-geocoder": "github:Esri/esri-leaflet-geocoder@2.1.0",
     "babel": "npm:babel-core@5.8.38",
@@ -25,9 +27,14 @@ System.config({
     "core-js": "npm:core-js@1.2.6",
     "esri-leaflet": "npm:esri-leaflet@2.0.0",
     "esri-leaflet-geocoder": "npm:esri-leaflet-geocoder@2.1.0",
+    "esri-leaflet-renderers": "npm:esri-leaflet-renderers@2.0.1",
     "esri/esri-leaflet-geocoder": "github:esri/esri-leaflet-geocoder@2.1.0",
+    "jquery": "npm:jquery@2.2.3",
     "json": "github:systemjs/plugin-json@0.1.2",
     "leaflet": "npm:leaflet@1.0.0-rc.1",
+    "leaflet-shape-markers": "npm:leaflet-shape-markers@1.0.4",
+    "ts": "github:frankwallis/plugin-typescript@4.0.16",
+    "typescript": "npm:typescript@1.8.10",
     "github:Esri/esri-leaflet-geocoder@2.1.0": {
       "esri-leaflet": "npm:esri-leaflet@2.0.0",
       "leaflet": "npm:leaflet@1.0.0-rc.1"
@@ -35,6 +42,9 @@ System.config({
     "github:esri/esri-leaflet-geocoder@2.1.0": {
       "esri-leaflet": "npm:esri-leaflet@2.0.0",
       "leaflet": "npm:leaflet@1.0.0-rc.1"
+    },
+    "github:frankwallis/plugin-typescript@4.0.16": {
+      "typescript": "npm:typescript@1.8.10"
     },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -50,6 +60,9 @@ System.config({
     },
     "github:jspm/nodelibs-events@0.1.1": {
       "events": "npm:events@1.0.2"
+    },
+    "github:jspm/nodelibs-os@0.1.0": {
+      "os-browserify": "npm:os-browserify@0.1.2"
     },
     "github:jspm/nodelibs-path@0.1.0": {
       "path-browserify": "npm:path-browserify@0.0.0"
@@ -230,6 +243,11 @@ System.config({
       "esri-leaflet": "npm:esri-leaflet@2.0.0",
       "leaflet": "npm:leaflet@1.0.0-rc.1"
     },
+    "npm:esri-leaflet-renderers@2.0.1": {
+      "esri-leaflet": "npm:esri-leaflet@2.0.0",
+      "leaflet": "npm:leaflet@1.0.0-rc.1",
+      "leaflet-shape-markers": "npm:leaflet-shape-markers@1.0.4"
+    },
     "npm:esri-leaflet@2.0.0": {
       "arcgis-to-geojson-utils": "npm:arcgis-to-geojson-utils@1.0.1",
       "leaflet": "npm:leaflet@1.0.0-rc.1",
@@ -247,6 +265,9 @@ System.config({
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
+    "npm:leaflet-shape-markers@1.0.4": {
+      "leaflet": "npm:leaflet@1.0.0-rc.1"
+    },
     "npm:leaflet-virtual-grid@1.0.4": {
       "leaflet": "npm:leaflet@1.0.0-rc.1"
     },
@@ -263,6 +284,9 @@ System.config({
     "npm:miller-rabin@4.0.0": {
       "bn.js": "npm:bn.js@4.11.3",
       "brorand": "npm:brorand@1.0.5"
+    },
+    "npm:os-browserify@0.1.2": {
+      "os": "github:jspm/nodelibs-os@0.1.0"
     },
     "npm:pako@0.2.8": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
@@ -347,6 +371,9 @@ System.config({
     },
     "npm:string_decoder@0.10.31": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0"
+    },
+    "npm:typescript@1.8.10": {
+      "os": "github:jspm/nodelibs-os@0.1.0"
     },
     "npm:util-deprecate@1.0.2": {
       "util": "github:jspm/nodelibs-util@0.1.0"

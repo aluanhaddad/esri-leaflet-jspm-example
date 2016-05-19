@@ -6,19 +6,27 @@
     "dependencies": {
       "esri-leaflet": "npm:esri-leaflet@^2.0.0",
       "esri-leaflet-geocoder": "npm:esri-leaflet-geocoder@^2.1.0",
+      "esri-leaflet-renderers": "npm:esri-leaflet-renderers@2.0.1",
+      "jquery": "npm:jquery@^2.2.3",
       "json": "github:systemjs/plugin-json@^0.1.2",
-      "leaflet": "npm:leaflet@1.0.0-rc.1"
+      "leaflet": "npm:leaflet@1.0.0-rc.1",
+      "leaflet-shape-markers": "npm:leaflet-shape-markers@^1.0.4",
+      "ts": "github:frankwallis/plugin-typescript@^4.0.16"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
-      "core-js": "npm:core-js@^1.1.4"
+      "core-js": "npm:core-js@^1.1.4",
+      "typescript": "npm:typescript@^1.8.10"
     },
     "overrides": {
       "npm:esri-leaflet-geocoder@2.1.0": {
         "jspmNodeConversion": false
       },
       "npm:esri-leaflet@2.0.0": {
+        "jspmNodeConversion": false
+      },
+      "npm:esri-leaflet-renderers@2.0.0": {
         "jspmNodeConversion": false
       },
       "npm:leaflet@1.0.0-rc.1": {
